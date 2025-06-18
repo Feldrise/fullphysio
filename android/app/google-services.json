@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777782219652",
+    "project_id": "fullphysio-feldrise",
+    "storage_bucket": "fullphysio-feldrise.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777782219652:android:b30a94ac8793dc19bec3d1",
+        "android_client_info": {
+          "package_name": "com.example.fullphysio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-1IMGODMf58RLm478a2D4zz7Npnl4reE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
