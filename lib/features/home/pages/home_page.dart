@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fullphysio/features/navigation/app_drawer.dart';
+import 'package:go_router/go_router.dart';
 
 class HomePage extends StatelessWidget {
   final String? userEmail;
@@ -15,7 +16,7 @@ class HomePage extends StatelessWidget {
               ? null
               : AppDrawer(
                 onSelect: (route) {
-                  // TODO: Implement navigation
+                  context.go(route);
                   Navigator.pop(context);
                 },
               ),
@@ -26,7 +27,7 @@ class HomePage extends StatelessWidget {
               width: 280,
               child: AppDrawer(
                 onSelect: (route) {
-                  // TODO: Implement navigation
+                  context.go(route);
                 },
                 isPermanent: true,
               ),

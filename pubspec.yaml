@@ -1,6 +1,6 @@
 name: fullphysio
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -13,11 +13,17 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_riverpod: ^2.6.1
+  freezed_annotation: ^3.0.0
+  go_router: ^15.2.0
+  json_annotation: ^4.9.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  build_runner: ^2.5.1
+  freezed: ^3.0.6
+  json_serializable: ^6.9.5
 
 flutter:
   uses-material-design: true
